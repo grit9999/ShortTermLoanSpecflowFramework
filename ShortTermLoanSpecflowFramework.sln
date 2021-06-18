@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortTermLoanSpecflowFramework", "ShortTermLoanSpecflowFramework\ShortTermLoanSpecflowFramework.csproj", "{012BF3F3-B522-4795-9FA2-B674454A0DD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortTermLoan.Spec.Framework", "ShortTermLoan.Spec.Framework\ShortTermLoan.Spec.Framework.csproj", "{515F4F85-4626-4171-BD55-5FEDFBFA3307}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortTermLoan.App.Specs", "ShortTermLoan.App.Specs\ShortTermLoan.App.Specs.csproj", "{42CDD41F-325D-4CBE-8DD6-31B44D4A72BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{149F9358-FC9C-482E-BC42-CE63D4A09A1C}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMeAutomationTestDocumentaton.txt = ReadMeAutomationTestDocumentaton.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012BF3F3-B522-4795-9FA2-B674454A0DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012BF3F3-B522-4795-9FA2-B674454A0DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012BF3F3-B522-4795-9FA2-B674454A0DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012BF3F3-B522-4795-9FA2-B674454A0DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515F4F85-4626-4171-BD55-5FEDFBFA3307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515F4F85-4626-4171-BD55-5FEDFBFA3307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515F4F85-4626-4171-BD55-5FEDFBFA3307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515F4F85-4626-4171-BD55-5FEDFBFA3307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CDD41F-325D-4CBE-8DD6-31B44D4A72BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CDD41F-325D-4CBE-8DD6-31B44D4A72BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CDD41F-325D-4CBE-8DD6-31B44D4A72BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CDD41F-325D-4CBE-8DD6-31B44D4A72BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D478BC1-E17A-4EAE-98DF-486A39002DA3}
+	EndGlobalSection
+EndGlobal

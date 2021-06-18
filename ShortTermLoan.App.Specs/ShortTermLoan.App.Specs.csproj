@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\SpecFlowFeature2.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\VerifyMaximumLoanAmountDisplayed.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\VerifyMinimumLoanAmountDisplayed.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\VerifyWeekendRepaymentDayDisplayedAsFridayDate.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit.Console" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="SpecFlow" Version="3.8.14" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.8.14" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.8.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShortTermLoan.Spec.Framework\ShortTermLoan.Spec.Framework.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>
